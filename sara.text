@@ -1,0 +1,27 @@
+DOUKUMENTATION SARA 
+
+git clone - clonade ner det gemensamma repon från Github
+
+git checkout -b sara - skapade min egen branch 
+
+git add . - skapade en kontaktform.html och html:5 doukument med 1 div 
+
+git commit -m - committade min ändring 
+
+git push - pushade upp min ändring till github 
+
+git checkout main - ändrade till main 
+
+git pull - hämtade hem ändringar från main 
+
+git merge sara - mergade för att få in mina ändringar till main 
+
+KONFLIKT
+accepterade båda förändringar och klipte och klistarde tills det inte var en konfilkt längre
+
+git add . - adderade ändringarna efter mergen 
+
+git commit -m - commitade ändringarna 
+
+git push - pushade upp ändringarna till main 
+
