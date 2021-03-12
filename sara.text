@@ -6,7 +6,7 @@ git checkout -b sara - skapade min egen branch
 
 git add . - skapade en kontaktform.html och html:5 doukument med 1 div 
 
-git commit -m - committade min ändring 
+git commit -m "added kontaktform" - committade min ändring 
 
 git push - pushade upp min ändring till github 
 
@@ -21,7 +21,7 @@ accepterade båda förändringar och klipte och klistarde tills det inte var en 
 
 git add . - adderade ändringarna efter mergen 
 
-git commit -m - commitade ändringarna 
+git commit -m "merged from sara to main" - commitade ändringarna 
 
 git push - pushade upp ändringarna till main 
 
