@@ -1,5 +1,6 @@
 Git kommands som jag har använt under uppgiftens gång:
 
+Jag har skapat repot, gjort den public och bjudit in resten av gruppen
 git add .
 git commit -m 
 git push
