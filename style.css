@@ -1,0 +1,33 @@
+html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+  }
+
+  nav {
+    background: #000;
+    height: 60px; /* set same as height & line-height below */
+  }
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    height: 60px; /* should be the same as line-height */
+    line-height: 60px; /* should be the same as height */
+    padding: 0 40px; /* "0" sets top and bottom padding to none */
+  }
+
+  nav li a {
+      text-decoration: none;
+      color: white;
+      border: none;
+  }
+
+  nav li a:hover {
+    color: red;
+}
