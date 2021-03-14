@@ -16,19 +16,19 @@ input.addEventListener('keyup', function (e) {
 
 
 
-const palindormesUl = document.getElementById('palindromes');
-const notPalindormesUl = document.getElementById('not-palindromes');
+const palindromesUl = document.getElementById('palindromes');
+const notPalindromesUl = document.getElementById('not-palindromes');
 
 function checkPalindome() {
 
     if (input.value != "") {
-        const inputIsPalindome = palindrome(input.value);
+        const inputIsPalindrome = palindrome(input.value);
 
-        if (inputIsPalindome) {
-            palindormesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
+        if (inputIsPalindrome) {
+            palindromesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
         }
         else {
-            notPalindormesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
+            notPalindromesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
         }
         // Clear input field
         input.value = '';
