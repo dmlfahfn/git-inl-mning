@@ -25,14 +25,12 @@ function checkPalindome() {
         const inputIsPalindome = palindrome(input.value);
 
         if (inputIsPalindome) {
-            console.log(`"${input.value}" is a palindome!`)
             palindormesUl.insertAdjacentHTML('afterbegin', `
                 <li>${input.value}</li>
             `
             )
         }
         else {
-            console.log(`"${input.value}" is not a palindome!`)
             notPalindormesUl.insertAdjacentHTML('afterbegin', `
                 <li>${input.value}</li>
             `
