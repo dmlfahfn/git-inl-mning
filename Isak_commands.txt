@@ -1,9 +1,0 @@
-git clone https://github.com/dmlfahfn/git-inl-mning.git //klona repot
-git pull //hämta hem HTML och CSS fil
-git checkout -b "Isak" //Skapa en egen branch
-git add . //lägga till filer 
-git commit -m // skapa commit
-git push //pusha commit
-git push --set-upstream origin //sätter en upstream
-git checkout //ändra branch
-git merge //merga
