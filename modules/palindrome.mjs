@@ -1,12 +1,12 @@
 export function palindrome(str) {
   str = str.replace(/[^A-Za-z0-9]/g, '');
-  str = str.toLowerCase()
+  str = str.toLowerCase();
 
   const len = str.length;
   const mid = str.length / 2;
 
   // Create variables for both halves of the string 
-  let firstHalf = str.slice(0, mid)
+  let firstHalf = str.slice(0, mid);
   let secondHalf;
   
   // Check if length is odd
@@ -24,7 +24,7 @@ export function palindrome(str) {
   let secondHalfReversed = [];
   const secondHalfLen = secondHalf.length;
   for (let i = 0; i < secondHalfLen; i++) {
-    secondHalfReversed.push(secondHalf.pop())
+    secondHalfReversed.push(secondHalf.pop());
   }
 
   // Convert array to string

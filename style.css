@@ -31,3 +31,29 @@ html, body, div, p, ul, li {
   nav li a:hover {
     color: red;
 }
+
+
+
+/*------------------ om-oss.html ---------------------*/
+
+main {
+  margin-top: 50px;
+}
+
+.ul-box {
+  display: flex;
+}
+
+.ul-box ul {
+  list-style-type: none;
+}
+
+.palindromes-div {
+  margin: 0 10px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+.not-palindromes-div {
+  margin: 0 20px;
+}
