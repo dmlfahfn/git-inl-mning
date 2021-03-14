@@ -25,16 +25,10 @@ function checkPalindome() {
         const inputIsPalindome = palindrome(input.value);
 
         if (inputIsPalindome) {
-            palindormesUl.insertAdjacentHTML('afterbegin', `
-                <li>${input.value}</li>
-            `
-            )
+            palindormesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
         }
         else {
-            notPalindormesUl.insertAdjacentHTML('afterbegin', `
-                <li>${input.value}</li>
-            `
-            )
+            notPalindormesUl.insertAdjacentHTML('afterbegin', `<li>${input.value}</li>`);
         }
         // Clear input field
         input.value = '';
