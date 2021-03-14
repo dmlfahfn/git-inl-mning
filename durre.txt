@@ -8,3 +8,4 @@ git pull ---> tog ner ändringar
 git fetch ---> visade vad som har ändrats och behövs laddas ner remote
 git merge [branchname] ---> vid sammansalgning av min branch 
 Löste konflikten som uppstod när jag rörde vid samma dokument som min grupp partner. 
+git revert ---> removed a commit
